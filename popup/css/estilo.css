@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#principal {
+  background: url("../img/fundo.png") no-repeat;
+  background-position-x: 30%;
+  height: 100%;
+}
+
+#principal .imagem img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#principal .personagem img {
+  margin-top: -180%;
+}
+
+#principal .imagem2 img {
+  width: 100%;
+  margin-top: -180%;
+}
+
+#principal .botaonao img {
+  margin-top: -60%;
+  margin-left: 50%;
+}
+
+#principal .botaosim img {
+  margin-top: -60%;
+}
+
+@media screen and (max-width: 320px) {
+  #principal .personagem img {
+    padding-top: 30px;
+  }
+
+  #principal .botaosim img {
+    padding-right: 15%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #principal .botaosim img {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+  }
+
+  #principal {
+    background-size: cover;
+  }
+
+  #principal .imagem2 img {
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 15%;
+  }
+
+  #principal .personagem img {
+    width: 70%;
+    margin-top: -220px;
+    margin-left: 12%;
+  }
+  #principal .quetal {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  #principal .quetal img {
+    width: 100%;
+    margin-left: -20px;
+  }
+
+  #principal .botaonao img {
+    width: 40%;
+    margin-top: -80px;
+    margin-left: 25%;
+  }
+
+  #principal .botaosim img {
+    width: 300px;
+    margin-top: -80px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  #principal .botaosim img {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #principal .quetal img {
+    width: 90%;
+  }
+
+  #principal .personagem img {
+    margin-top: -100%;
+  }
+
+  #principal .imagem2 img {
+    margin-top: -100%;
+  }
+
+  #principal .botaonao img {
+    margin-top: 10%;
+    margin-left: 0;
+  }
+
+  #principal .botaosim img {
+    margin-top: -10%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #principal .quetal img {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  #principal .imagem2 img {
+    margin-top: -400px;
+  }
+
+  #principal .botaonao img {
+    margin-left: 40%;
+  }
+
+  #principal .botaosim img {
+    margin-top: -90px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #principal .quetal img {
+    width: 65%;
+  }
+
+  #principal .personagem img {
+    width: 90%;
+    margin-top: -70%;
+  }
+
+  #principal .imagem2 img {
+    width: 90%;
+    margin-top: -60%;
+  }
+
+  #principal .botaonao img {
+    margin-top: -40px;
+    margin-left: 50%;
+  }
+
+  #principal .botaosim img {
+    margin-top: -38%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #principal .imagem2 img {
+    margin-top: -60%;
+  }
+
+  #principal .botaonao img {
+    margin-top: -30%;
+  }
+
+  #principal .botaosim img {
+    margin-top: -55%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  #principal {
+    background-position-x: 45%;
+  }
+}
