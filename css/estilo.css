@@ -1,430 +1,511 @@
 * {
-    border: 0;
-    margin: 0;
-    box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #fff;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+a {
+  cursor: pointer;
 }
 
 #apresentacao {
-    background: url('../img/bg1.jpg') no-repeat;
-    background-size: cover;
+  background: url("../img/bg1.jpg") no-repeat;
+  background-size: cover;
 }
 
 #apresentacao .kit img {
-    margin-top: 20%;
-    position: relative;
+  width: 60%;
+  margin-top: 4%;
+  margin-left: -10%;
+  position: relative;
 }
 
 #apresentacao .png img {
-    margin-left: 20%;
+  margin-left: 20%;
 }
 
 #apresentacao .paragrafo p {
-    font-size: 20px;
-    max-width: 400px;
-    font-weight: 400;
+  font-size: 20px;
+  max-width: 400px;
+  font-weight: 400;
 }
 
 #apresentacao .paragrafo span {
-font-weight: 700;
-font-size: 25px;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 #cta {
-    background: #FFC712 ;
+  background: #ffc712;
 }
 
 #cta img {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
-#kits {
-    background: #FFA12B no-repeat;
-    background-size: cover;
+/* #kits {
+  background: #ffa12b no-repeat;
+  background-size: cover;
 }
 
 #kits img {
-    padding-left: 30px;
-    padding-top: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
 }
 
 #kits .paragrafo p {
-    text-align: center;
-    max-width: 800px;
-    font-size: 18px;
-    margin: 0 auto;
-    font-weight: 300;
-}
+  text-align: center;
+  max-width: 800px;
+  font-size: 18px;
+  margin: 0 auto;
+  font-weight: 300;
+} */
 
 #produtos {
-    background: url('../img/bg2.jpg') no-repeat;
-    background-size: cover;
+  background: url("../img/bg2.jpg") no-repeat;
+  background-size: cover;
 }
 
-#bonus {
-    background: url('../img/bg2.svg') no-repeat,#FF4557;
-    background-size: cover;
+/* #bonus {
+  background: url("../img/bg2.svg") no-repeat, #ff4557;
+  background-size: cover;
 }
 
-#bonus .paragrafo1 p{
-    max-width: 400px;
+#bonus .paragrafo1 p {
+  max-width: 400px;
 }
 
 #bonus .paragrafo2 p {
-    max-width: 300px;
-    margin: 0 auto;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 #bonus .paragrafo3 p {
-    max-width: 300px;
-    margin: 0 auto;
-}
+  max-width: 300px;
+  margin: 0 auto;
+} */
 
 #depoimentos {
-    background: url('../img/bg2.jpg') no-repeat;
-    background-size: cover;
+  background: url("../img/bg2.jpg") no-repeat;
+  background-size: cover;
 }
 
 #depoimentos .card1 {
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);;
-    width: 90%;
-    border-radius: 40px;
-    line-height: 21px;
-    margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  width: 90%;
+  border-radius: 40px;
+  line-height: 21px;
+  margin: 0 auto;
 }
 
 #depoimentos .card1 p {
-    max-width: 300px;
+  max-width: 300px;
 }
 
 #depoimentos .card1:hover {
-    background: #2CB7FF ;
-    transition: all ease .1s;
-    transform: scale(1.1);
-    color: #fff;
+  background: #2cb7ff;
+  transition: all ease 0.1s;
+  transform: scale(1.1);
+  color: #fff;
 }
-
-
 
 #depoimentos .card2:hover {
-    background: #2CB7FF ;
-    transition: all ease .1s;
-    transform: scale(1.1);
-    color: #fff;
+  background: #2cb7ff;
+  transition: all ease 0.1s;
+  transform: scale(1.1);
+  color: #fff;
 }
 
-
 #depoimentos .card3:hover {
-    background: #2CB7FF ;
-    transition: all ease .1s;
-    transform: scale(1.1);
-    color: #fff;
+  background: #2cb7ff;
+  transition: all ease 0.1s;
+  transform: scale(1.1);
+  color: #fff;
 }
 
 #depoimentos .card2 {
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);;
-    width: 90%;
-    border-radius: 40px;
-    line-height: 21px;
-    height: 89%;
-    margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  width: 90%;
+  border-radius: 40px;
+  line-height: 21px;
+  height: 89%;
+  margin: 0 auto;
 }
 
 #depoimentos .card2 p {
-    max-width: 300px;
+  max-width: 300px;
 }
 
 #depoimentos .card3 {
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);;
-    width: 90%;
-    border-radius: 40px;
-    line-height: 21px;
-    height: 89%;
-    margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  width: 90%;
+  border-radius: 40px;
+  line-height: 21px;
+  height: 89%;
+  margin: 0 auto;
 }
 
 #depoimentos .card3 p {
-    max-width: 300px;
+  max-width: 300px;
 }
 
 #videos {
-    background: url('../img/bg3.jpg') no-repeat center fixed;
-    background-size: cover;
-    background-position-y: 100%;
-   
+  background: url("../img/bg3.jpg") no-repeat center fixed;
+  background-size: cover;
+  background-position-y: 100%;
 }
 
 #garantia {
-    background: #53B859;
+  background: #29abe1;
 }
 
-#garantia .paragrafo p{
-    font-weight: 400;
-    text-align: left;
-    max-width: 500px;
+#garantia .paragrafo p {
+  font-weight: 400;
+  text-align: left;
+  max-width: 500px;
 }
 
 #cartoon {
-    background: url('../img/aviao.jpg') no-repeat;
-    background-size: 8%;
-    background-position-y: 5%;
-    background-position-x: 26%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+.leftside {
+  background: url("../img/casaKafofu.png") #8bc53e no-repeat;
+  height: 100%;
+  margin-left: -20px;
+  width: 102%;
+  background-size: cover;
+}
+
+.rightside {
+  background: white;
+  background-position-y: 10%;
+  width: 102.5%;
+  background-size: cover;
+}
+
+.leftside .palavras2 img {
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+
+.leftside .botaoazul img {
+  width: 50%;
+  margin-left: 20%;
+}
+
+.rightside .botaolaranja img {
+  width: 50%;
+  margin-left: 30%;
+  margin-top: 0%;
+}
+
+.rightside .palavras img {
+  width: 70%;
+  margin-left: 20%;
+  margin-top: 20px;
 }
 
 #cartoon .valor img {
-    width: 20%;
+  width: 20%;
 }
 
 #duvidas {
-    background: url('../img/bg-footer.jpg'), #FFC712 no-repeat fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: -190%;
-    height: 100vh;
+  background: url("../img/ultimoBgAtualizado.png"), #ffc712 no-repeat fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -190%;
+  height: 100vh;
 }
 
 #duvidas .accordion {
-    background-color: #ED7F82;
-    color: #fff;
-    cursor: pointer;
-    margin-top: 30px;
-    padding:18px;
-    width: 50%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-    border-radius: 30px;
-    padding-left: 40px;
+  background-color: #ed7f82;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 30px;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border-radius: 30px;
+  padding-left: 40px;
+}
+
+#duvidas .panel {
+  padding: 0 18px;
+  display: none;
+  color: #000;
+  background: rgb(255, 232, 232);
+  width: 45%;
+  border-radius: 5px;
+  margin: 0 auto;
+  overflow: auto;
+  transition: all 0.5s;
+  text-align: left;
+}
+
+#duvidas .copyright {
+  margin-top: 35%;
+}
+
+#duvidas .icons a img {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 425px) {
+  #apresentacao {
+    text-align: center;
   }
-  
-  
-  #duvidas .panel {
-    padding: 0 18px;
-    display: none;
-    color: #000;
-    background: rgb(255, 232, 232);
-    width: 45%;
-    border-radius: 5px;
+
+  #apresentacao .kit img {
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  #apresentacao .paragrafo p {
+    text-align: left;
+    margin: 10px;
+  }
+
+  #apresentacao .png img {
+    margin-left: -20px;
+  }
+
+  #cta {
+    text-align: center;
+  }
+
+  #cta img {
+    width: 80%;
+  }
+
+  #kits {
+    text-align: center;
+  }
+
+  #kits img {
+    margin-left: -50px;
+  }
+
+  #kits .paragrafo p {
+    text-align: left;
+  }
+
+  #kits .botao img {
+    width: 100%;
+    margin-left: -50px;
+  }
+
+  #produtos {
     margin: 0 auto;
-    overflow: hidden;
-    transition: all .5s;
+  }
+
+  #bonus {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #bonus .paragrafo1 p {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  #bonus .paragrafo2 p {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  #bonus .paragrafo3 p {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  #bonus .valor1 {
+    margin-bottom: 100px;
+  }
+
+  #bonus .valor2 {
+    margin-bottom: 100px;
+  }
+
+  #bonus img {
+    width: 70%;
+  }
+
+  #bonus .botao img {
+    width: 100%;
+  }
+
+  #produtos img {
+    margin: 0 auto;
+  }
+
+  #depoimentos {
+    text-align: center;
+  }
+
+  #depoimentos img {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+  }
+
+  #videos iframe {
+    width: 100%;
+  }
+
+  #cartoon .valor img {
+    width: 70%;
+  }
+
+  .rightside .palavras img {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .rightside .botaolaranja img {
+    width: 80%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+
+  .leftside .palavras2 img {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  .leftside .botaoazul img {
+    width: 80%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+
+  .leftside {
+    width: 112%;
+  }
+
+  .rightside {
+    width: 109.4%;
+    margin-left: -16px;
+  }
+
+  #garantia img {
+    width: 80%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  #duvidas {
+    background: url("../img/ultimoBgAtualizado.png"), #ffc712 no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  #duvidas .titulo {
+    width: 100%;
+  }
+
+  #duvidas .accordion {
+    width: 100%;
+  }
+
+  #duvidas .panel {
+    width: 90%;
     text-align: left;
   }
 
   #duvidas .copyright {
-      margin-top: 35%;
+    display: none;
   }
 
-  #duvidas .icons a img {
-      margin-left: 30px;
+  #duvidas .icons {
+    display: none;
   }
+}
 
+@media screen and (max-width: 414px) {
+  .leftside {
+    width: 110%;
+  }
+}
 
-  @media screen and (max-width: 425px) {
-    #apresentacao {
-        text-align: center
+@media screen and (max-width: 375px) {
+  .leftside {
+    width: 110.3%;
+  }
+}
 
-
-    }
-
-    #apresentacao img {
-        margin-left: -20px;
-        width: 80%;
-    }
-    
-    #apresentacao .paragrafo p {
-        text-align: left;
-        margin: 30px;
-    }
-
-    #apresentacao .png img {
-        margin-left: -20px;
-    }
-
-    #cta {
-        text-align: center;
-    }
-
-    #cta img {
-        width: 80%;
-    }
-
-    #kits {
-        text-align: center;
-    }
-
-    #kits img {
-      margin-left: -50px;
-    }
-
-    #kits .paragrafo p {
-        text-align: left;
-    }
-
-    #kits .botao img {
-        width: 100%;
-        margin-left: -50px;
-    }
-
-    #produtos {
-        margin: 0 auto;
-    }
-
-    #bonus {
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    #bonus .paragrafo1 p {
-        max-width: 300px;
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-
-    #bonus .paragrafo2 p {
-        max-width: 250px;
-        margin: 0 auto;
-    }
-
-    #bonus .paragrafo3 p {
-        max-width: 300px;
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-
-    #bonus .valor1 {
-        margin-bottom: 100px;
-    }
-
-    #bonus .valor2 {
-        margin-bottom: 100px;
-    }
-
-    
-
-    #bonus img {
-        width: 70%;
-    }
-
-    #bonus .botao img {
-        width: 100%;
-    }
-
-    #produtos img {
-        margin: 0 auto;
-    }
-
-    #depoimentos {
-        text-align: center;
-    }
-
-        #depoimentos img {
-            width: 80%;
-            margin-top: 10px;
-            margin-bottom: 30px;
-            margin-left: 25px;
-        }
-
-    #videos iframe {
-        width: 100%;
-    }
-
-    #cartoon .valor img {
-        width: 70%;
-    }
-
-    #garantia img {
-        width: 80%;
-        margin-left: 30px;
-        margin-top: 20px;
-    }
-
-    #duvidas {
-        background: url('../img/bg-footer.svg'), #FFC712 no-repeat;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-    }
-
-    #duvidas .titulo {
-        width: 100%;
-    }
-
-    #duvidas .accordion {
-        width: 100%;
-    }
-
-    #duvidas .panel {
-        width: 90%;
-        text-align: left;
-    }
-
-    #duvidas .copyright {
-        display: none;
-    }
-
-    #duvidas .icons {
-        display: none;
-    }
-
+@media screen and (max-width: 320px) {
+  .rightside {
+    width: 111%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
- 
-    #apresentacao {
-        background-size: cover;
-        background-position: center;
-    }
-  
-    #cta .botao {
-        margin-left: -30px;
-    }
+  #apresentacao {
+    background-size: cover;
+    background-position: center;
+  }
 
-    #bonus .marciele {
-        width: 60%;
-        margin: 0 auto;
-    }
+  #cta .botao {
+    margin-left: -30px;
+  }
 
-    #bonus .luciano {
-        width: 70%;
-        margin: 0 auto;
-    }
+  #bonus .marciele {
+    width: 60%;
+    margin: 0 auto;
+  }
 
-    #bonus .luciano-beleza {
-        width: 90%;
-    }
+  #bonus .luciano {
+    width: 70%;
+    margin: 0 auto;
+  }
 
-    #cartoon {
-        background-size: 15%;
-        background-position-x: 10%;
-    }
+  #bonus .luciano-beleza {
+    width: 90%;
+  }
 
-    #cartoon .titulo {
-        width: 60%;
-        margin: 0 auto;
-    }
+  .rightside {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 0%;
+  }
 
-    #duvidas {
-        background: url('../img/bg-footer.jpg') #FFC712 no-repeat;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-    }
+  #cartoon .titulo {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  #duvidas {
+    background: url("../img/ultimoBgAtualizado.png") #ffc712 no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
 }
 
-
 @media screen and (min-width: 1400px) {
-
-    #duvidas {
-        background: url('../img/bg4.png'), #FFC712 no-repeat center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-    }
+  #duvidas {
+    background: url("../img/bg4.png"), #ffc712 no-repeat center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
 }
